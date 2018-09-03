@@ -8,10 +8,10 @@
 
 <body>
     <?php
-        foreach($result as $object){
-            echo 'Id '.$object->id;
-            echo 'Username '.$object->email;
-            echo 'Password '.$object->password;
+        foreach($countries as $object){
+			echo 'Id '.$object->id;
+			echo 'name'.$object->code;
+            echo 'Coutnry Name = '.$object->name;
             echo '<br/>';
         }
 //        echo $result;
